@@ -1,8 +1,8 @@
 
-# 📈 Mean Reversion Forex Trading Strategy (EUR/USD)  
+#  Mean Reversion Forex Trading Strategy (EUR/USD)  
 Automated **Forex trading algorithm** leveraging **mean reversion principles** with **Simple Moving Averages (SMA) and Bollinger Bands**. The strategy is implemented in **Python**, using the **OANDA API** for real-time execution and historical data analysis.
 
-## 🚀 Overview  
+##  Overview  
 This project builds an algorithmic trading strategy for the **EUR/USD currency pair**, based on the idea that prices tend to revert to their mean over time. The model:  
 - Uses **SMA (5 day)** and **Bollinger Bands** to identify overbought/oversold conditions.  
 - Executes trades automatically using the **OANDA API**.  
