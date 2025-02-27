@@ -4,20 +4,20 @@ Automated **Forex trading algorithm** leveraging **mean reversion principles** w
 
 ## 🚀 Overview  
 This project builds an algorithmic trading strategy for the **EUR/USD currency pair**, based on the idea that prices tend to revert to their mean over time. The model:  
-- Uses **SMA (50-day, 200-day)** and **Bollinger Bands** to identify overbought/oversold conditions.  
+- Uses **SMA (5 day)** and **Bollinger Bands** to identify overbought/oversold conditions.  
 - Executes trades automatically using the **OANDA API**.  
-- Backtests on **3 years of historical Forex data** to evaluate performance.  
+- Backtests on **5000 candles** to evaluate performance.  
 - Optimizes risk-adjusted returns with dynamic **position sizing and stop-loss mechanisms**.  
 
 ## 🔧 Tech Stack  
 - **Language:** Python  
 - **API:** OANDA (for real-time Forex trading)  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, OANDA API, Backtrader  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, OANDA API, Backtester, summaries  
 
 ## 📊 Performance Metrics  
-- **Annualized Return:** 9.8%  
+- **Return:** 15.23%  
 - **Sharpe Ratio:** 1.7  
-- **Max Drawdown Reduction:** 18%  
+- **Max Drawdown Reduction:** 2.18%  
 - **Trading Frequency:** Daily  
 
 ## ⚙️ Installation  
